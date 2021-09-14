@@ -5,20 +5,20 @@ const app = getApp()
 Page({
   data: {
     active: 0,
-    background: ['../../static/images/banner1.png', '../../static/images/banner2.png', '../../static/images/banner3.png'],
-    tab:[{
-      icon:'wap-home-o',
-      name:'首页'
-    },{
-      icon:'apps-o',
-      name:'分类'
-    },{
-      icon:'shopping-cart-o',
-      name:'购物车'
-    },{
-      icon:'contact',
-      name:'我的',
-      page:'/logs'
+    background: ['https://img.zcool.cn/community/01760d5c45eb5ba801203d22b118fc.jpg@1280w_1l_2o_100sh.jpg', 'https://img.zcool.cn/community/01b55e5afd3cf8a801218cf470064b.jpg@1280w_1l_2o_100sh.jpg', 'https://img.zcool.cn/community/0149d45afd3d0ea801218cf4d6bd98.jpg@1280w_1l_2o_100sh.jpg'],
+    tab: [{
+      icon: 'wap-home-o',
+      name: '首页'
+    }, {
+      icon: 'apps-o',
+      name: '分类'
+    }, {
+      icon: 'shopping-cart-o',
+      name: '购物车'
+    }, {
+      icon: 'contact',
+      name: '我的',
+      page: '/logs'
     }],
     motto: 'Hello World',
     userInfo: {},
