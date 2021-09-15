@@ -65,6 +65,8 @@ Page({
     this.setData({
       active: e.detail
     });
-    console.log(e)
+  },
+  onShow(e){
+    
   }
 })
