@@ -1,4 +1,4 @@
 <van-search shape="round" value="{{ value }}" placeholder="请输入搜索关键词" />
 <van-sidebar active-key="0">
-  <van-sidebar-item wx:for="{{sort}}" title="{{item.name}}" />
+  <van-sidebar-item wx:for="{{sort}}" wx:key="item.name" title="{{item.name}}" />
 </van-sidebar>
