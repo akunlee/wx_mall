@@ -18,5 +18,5 @@
     </block>
   </view>
 
-  <button type="primary">按钮主操作</button>
+  <button bindtap="login" type="primary">登录</button>
 </view>

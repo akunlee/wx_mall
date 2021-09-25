@@ -48,7 +48,30 @@ Page({
       active: e.detail
     });
   },
-  onShow(e){
-    
+  login() {
+    wx.checkSession({
+      success: (res) => {
+        console.log('已登录')
+      },
+      fail: (res) => {
+        wx.login().then(res => {
+          const {
+            code
+          } = res;
+          wx.request({
+            url: 'http://127.0.0.1:3000/login',
+            data: {
+              code
+            },
+            method: 'POST'
+
+          })
+
+        })
+      }
+    })
+
+
+
   }
 })

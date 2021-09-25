@@ -9,7 +9,7 @@
         ]
     },
     "setting": {
-        "urlCheck": true,
+        "urlCheck": false,
         "es6": true,
         "enhance": true,
         "postcss": true,
@@ -41,14 +41,11 @@
         "packNpmManually": false,
         "packNpmRelationList": [],
         "minifyWXSS": true,
-        "disableUseStrict": false,
-        "minifyWXML": true,
-        "showES6CompileOption": false,
-        "useCompilerPlugins": false
+        "showES6CompileOption": false
     },
     "compileType": "miniprogram",
     "libVersion": "2.19.4",
-    "appid": "wxa1ddf84179789f89",
+    "appid": "wxb82a372d67881140",
     "projectname": "miniprogram-1",
     "debugOptions": {
         "hidedInDevtools": []
